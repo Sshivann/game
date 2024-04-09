@@ -15,12 +15,12 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 function isValidChoice(choice) {
-    return choice === 'rock' || choice === 'paper' || choice === 'scissors'
+  return choice === "rock" || choice === "paper" || choice === "scissors";
 }
-function  getComputerChoice() {
-    const choices = ['rock', 'paper', 'scissors'];
-    const randomNumber = Math,floor(Math,random()*3);
-    return choices[randomNumber];
+function getComputerChoice() {
+  const choices = ["rock", "paper", "scissors"];
+  const randomNumber = Math.floor(Math.random() * 3);
+  return choices[randomNumber];
 }
 
 const playerSelection = "rock";
